@@ -157,5 +157,16 @@
 
 .card-bonus.opened {
   transform: none;
-  transiton: none;
+
+}
+
+@media media (max-width:1210px) {
+
+  .menu {
+      font: 400 50px/59px 'Roboto', sans-serif, arial, helvetica;
+      background: top 37vw right 21px no-repeat url(img/cards.png);
+      color: #FFFFFF;
+      padding: 103px 103px 256px;
+      box-sizing: border-box;
+  }
 }
